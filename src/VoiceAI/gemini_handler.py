@@ -18,7 +18,7 @@ def get_response(prompt: str) -> tuple[str, str]:
         },
         stream=GEMINI_CONFIG["streaming"]
     )
-    bot_reply = response.text.strip().splitlines()
+    bot_reply = response.text.strip().splitlines() # Coustom Responses Comment out these lines..
     command = bot_reply[0]
     reply_text = '\n'.join(bot_reply[1:])
     return command, reply_text
