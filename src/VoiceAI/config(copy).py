@@ -4,7 +4,7 @@ Fill in you're own API and IP's to procede
 '''
 
 GEMINI_CONFIG = {
-    "api_key": "AIzaSyCDykppvp0pTvekWR6CnbGbP5dATR7C3I0",
+    "api_key": "GOOGLE API KEY",
     "model": "gemini-2.0-flash",
     "system_instruction": (
         "You are a cheerful robot named Little Bot. "
